@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="videourl_filters">
+        <item>mp4</item>
+        <item>video</item>
+        <item>googleusercontent</item>
+        <item>embed</item>
+        <item>mp3</item>
+        <item>audio</item>
+        <item>mpeg</item>
+    </string-array>
+</resources>

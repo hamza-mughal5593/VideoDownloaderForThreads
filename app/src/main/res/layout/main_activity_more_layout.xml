@@ -1,0 +1,79 @@
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="7dp"
+        >
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/delete_main"
+            android:tint="#605F5F"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/_14sdp"
+            android:layout_toEndOf="@+id/delete_icon"
+            android:text="Delete" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="7dp"
+        >
+
+        <ImageView
+            android:id="@+id/share_ic"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/share_ic"
+            android:layout_centerVertical="true"
+            app:tint="#FF605F5F" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/_14sdp"
+
+            android:layout_toEndOf="@+id/share_ic"
+            android:text="Share" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>
